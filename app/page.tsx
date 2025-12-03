@@ -293,7 +293,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div className="flex flex-col">
-                        <span className="text-lg md:text-xl font-semibold">+1-571-634-9960</span>
+                        <span className="text-lg md:text-xl font-semibold">+1(571)634-9960</span>
                         <span className="text-rose-100 text-sm">(Phone / WhatsApp)</span>
                       </div>
                     </a>
