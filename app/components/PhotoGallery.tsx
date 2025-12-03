@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useState } from 'react';
 
 interface Photo {
@@ -44,12 +43,10 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
               className="relative aspect-[4/3] rounded-lg overflow-hidden cursor-pointer group shadow-md hover:shadow-xl transition-shadow duration-300 bg-gray-100"
               onClick={() => setSelectedPhoto(photo)}
             >
-              <Image
+              <img
                 src={photo.src}
                 alt={photo.alt}
-                fill
-                className="object-contain group-hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
               {photo.title && (
@@ -89,13 +86,10 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
               </svg>
             </button>
             <div className="relative w-full aspect-auto">
-              <Image
+              <img
                 src={selectedPhoto.src}
                 alt={selectedPhoto.alt}
-                width={1200}
-                height={800}
-                className="object-contain w-full h-full rounded-lg"
-                sizes="100vw"
+                className="object-contain w-full h-full rounded-lg max-h-[80vh]"
               />
             </div>
             {selectedPhoto.title && (
