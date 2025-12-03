@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { getImagePath } from '../utils/imagePath';
+import { useI18n } from '../contexts/I18nContext';
 
 interface Photo {
   src: string;
@@ -15,16 +16,17 @@ interface PhotoGalleryProps {
 
 export default function PhotoGallery({ photos }: PhotoGalleryProps) {
   const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
+  const { t } = useI18n();
 
   if (photos.length === 0) {
     return (
       <div className="glass rounded-3xl shadow-xl shadow-rose-100/50 p-12 border border-rose-200/50 text-center animate-fade-in-up">
         <div className="text-6xl mb-4">📷</div>
         <h3 className="text-2xl font-playfair font-bold bg-gradient-to-r from-rose-700 to-rose-600 bg-clip-text text-transparent mb-2">
-          Photo Gallery
+          {t('gallery.title')}
         </h3>
         <p className="text-gray-600">
-          Photos will be displayed here. Please add images to the <code className="bg-rose-50 px-2 py-1 rounded">public/photos</code> folder.
+          {t('gallery.emptyMessage')} <code className="bg-rose-50 px-2 py-1 rounded">{t('gallery.folder')}</code> {t('gallery.folderEnd')}
         </p>
       </div>
     );
@@ -35,7 +37,7 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
       <div className="glass rounded-3xl shadow-xl shadow-rose-100/50 p-8 md:p-10 border border-rose-200/50 animate-fade-in-up">
         <h2 className="text-3xl md:text-4xl font-playfair font-bold bg-gradient-to-r from-rose-700 to-rose-600 bg-clip-text text-transparent mb-8 flex items-center gap-3">
           <span className="text-2xl">📷</span>
-          Photo Gallery
+          {t('gallery.title')}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           {photos.map((photo, index) => (

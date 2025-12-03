@@ -1,0 +1,139 @@
+{
+  "header": {
+    "title": "Marriage Bio-Data",
+    "name": "Shazzad Hossain"
+  },
+  "tabs": {
+    "biodata": "Bio-Data",
+    "gallery": "Photo Gallery"
+  },
+  "sections": {
+    "aboutMe": "About Me",
+    "basicInfo": "Basic Information & Lifestyle",
+    "religiousBackground": "Religious Background",
+    "familyDetails": "Family Details",
+    "educationCareer": "Education & Career",
+    "hobbiesInterests": "Hobbies & Interests",
+    "assetsFinancial": "Assets & Financial Stability",
+    "partnerPreferences": "Partner Preferences",
+    "contactInfo": "Contact Information"
+  },
+  "about": {
+    "p1": "I am a smart, well-educated, and energetic IT professional, widely known for my honesty, discipline, and organized behavior. Originally from {dhaka}, I've had the opportunity to study at renowned universities in {universities}.",
+    "p2": "I am a {usCitizen}, professionally and financially well-established in both the {countries}, with properties and homes in both countries. Currently, I work as a {jobTitle}. In addition, I founded and manage a {companyType}. I am also actively exploring {realEstate}.",
+    "p3": "I lead a {lifestyle}, free from smoking or alcohol.",
+    "highlight": "I have a deep love for children and believe they bring immense joy and strengthen the bond in a marriage. I hope my future partner shares my passion for building a happy, family-oriented life soon after marriage.",
+    "dhaka": "Dhaka",
+    "universities": "Malaysia, the United Kingdom, and the United States",
+    "usCitizen": "U.S. citizen",
+    "countries": "United States and Bangladesh",
+    "jobTitle": "Software Engineer on a U.S. Federal Government project",
+    "companyType": "small S-corporation IT firm",
+    "realEstate": "real estate investment opportunities in the U.S.",
+    "lifestyle": "healthy and responsible lifestyle"
+  },
+  "basicInfo": {
+    "dateOfBirth": "Date of Birth",
+    "citizenship": "Citizenship",
+    "currentLocation": "Current Location",
+    "bornRaised": "Born & Raised",
+    "maritalStatus": "Marital Status",
+    "children": "Children",
+    "height": "Height",
+    "diet": "Diet",
+    "bloodGroup": "Blood Group",
+    "health": "Health",
+    "values": {
+      "dateOfBirth": "December 1978",
+      "citizenship": "United States of America",
+      "currentLocation": "Washington, D.C., USA",
+      "bornRaised": "Dhaka, Bangladesh",
+      "maritalStatus": "Divorced (with valid reasons)",
+      "children": "None",
+      "height": "5'5\" (165 cm)",
+      "diet": "Non-Vegetarian",
+      "bloodGroup": "AB+",
+      "health": "Excellent; no health issues or disabilities"
+    }
+  },
+  "religious": {
+    "faith": "Faith",
+    "value": "Islam (Sunni)"
+  },
+  "family": {
+    "father": "Father",
+    "mother": "Mother",
+    "elderBrother": "Elder Brother",
+    "elderSister": "Elder Sister",
+    "youngerBrother": "Younger Brother",
+    "familyResidences": "Family Residences",
+    "fatherValue": "Deceased",
+    "motherValue": "Homemaker; resides in both the USA and Dhaka",
+    "elderBrotherValue": "Medical Doctor from Dhaka Medical College; currently working with the World Health Organization (WHO)",
+    "elderSisterValue": "Associate Professor of Physics at a government college in Dhaka",
+    "youngerBrotherValue": "BUET graduate; Master's from LSBU (UK) and Texas Tech University (USA) | Former employee at Google, currently working with the U.S. Federal Government, residing in Texas",
+    "familyResidencesValue": "Dhaka (Bangladesh), Washington D.C., Maryland, and Texas (USA)"
+  },
+  "education": {
+    "highestQualifications": "Highest Qualifications",
+    "universitiesAttended": "Universities Attended",
+    "currentRole": "Current Role",
+    "qualification1": "Master's in Information Technology & E-Commerce",
+    "qualification2": "Executive MBA",
+    "university1": "The George Washington University (USA)",
+    "university2": "University of Greenwich (UK)",
+    "currentRoleValue": "IT Professional with the U.S. Federal Government"
+  },
+  "hobbies": {
+    "gardening": "Gardening",
+    "traveling": "Traveling",
+    "gym": "Gym",
+    "running": "Running",
+    "cycling": "Cycling",
+    "swimming": "Swimming",
+    "cricket": "Cricket",
+    "badminton": "Badminton",
+    "movies": "Movies"
+  },
+  "assets": {
+    "familyOwned": "Family-Owned Properties",
+    "personallyOwned": "Personally Owned Properties",
+    "property1": "Five-storied house in Pallabi, Mirpur (near Metro Station)",
+    "property2": "Separate house in Mirpur-1",
+    "property3": "3-katha residential plot in Savar",
+    "property4": "7-katha plot in Sagutta Housing (adjacent to Mirpur DOHS)",
+    "property5": "Three-storied single-family home on a 0.54-acre lot in Washington, D.C.",
+    "property6": "Multiple personal vehicles"
+  },
+  "partner": {
+    "ageRange": "Age Range",
+    "height": "Height",
+    "religion": "Religion/Community",
+    "maritalStatus": "Marital Status",
+    "children": "Children",
+    "career": "Career",
+    "qualitiesDesired": "Qualities Desired",
+    "ageRangeValue": "21–30 years",
+    "heightValue": "4'11\"–5'4\"",
+    "religionValue": "Muslim preferred",
+    "maritalStatusValue": "Never married preferred",
+    "childrenValue": "Should not have children",
+    "careerValue": "Career/job is not a priority; preference for someone with a homely, nurturing nature",
+    "qualitiesValue": "Polite, well-organized, homely, family-oriented, enjoys cooking, caring and loving toward family and children, respectful and supportive of her husband, and values traditional morals and ethics."
+  },
+  "contact": {
+    "email": "nilay1997@gmail.com",
+    "phone": "+1(571)634-9960",
+    "phoneLabel": "(Phone / WhatsApp)"
+  },
+  "footer": {
+    "copyright": "© {year} Shazzad Hossain - Marriage Bio-Data"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "emptyMessage": "Photos will be displayed here. Please add images to the",
+    "folder": "public/photos",
+    "folderEnd": "folder."
+  }
+}
+
