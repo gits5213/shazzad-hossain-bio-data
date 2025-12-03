@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { getImagePath } from '../utils/imagePath';
 
 interface Photo {
   src: string;
@@ -44,7 +45,7 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
               onClick={() => setSelectedPhoto(photo)}
             >
               <img
-                src={photo.src}
+                src={getImagePath(photo.src)}
                 alt={photo.alt}
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
               />
@@ -87,7 +88,7 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
             </button>
             <div className="relative w-full aspect-auto">
               <img
-                src={selectedPhoto.src}
+                src={getImagePath(selectedPhoto.src)}
                 alt={selectedPhoto.alt}
                 className="object-contain w-full h-full rounded-lg max-h-[80vh]"
               />
